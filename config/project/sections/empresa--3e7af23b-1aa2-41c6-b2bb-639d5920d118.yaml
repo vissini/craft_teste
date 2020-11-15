@@ -1,0 +1,11 @@
+enableVersioning: true
+handle: empresa
+name: Empresa
+propagationMethod: all
+siteSettings:
+  a13c9432-2932-4d9d-bc96-97075214c98a:
+    enabledByDefault: true
+    hasUrls: true
+    template: null
+    uriFormat: empresa
+type: single

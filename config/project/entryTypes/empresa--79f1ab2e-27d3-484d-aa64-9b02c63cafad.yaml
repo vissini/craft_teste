@@ -1,0 +1,83 @@
+fieldLayouts:
+  3eb99c2e-f11f-4475-8500-aaea2821251f:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\EntryTitleField
+            warning: null
+            width: 100
+          -
+            fieldUid: d35758d1-7812-4a7e-8d3b-46b64ffc8a5d
+            instructions: 'Texto a empresa'
+            label: ''
+            required: '1'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 3301d204-156b-4bdf-9974-ba8ea625cffa
+            instructions: 'Missão da empresa'
+            label: ''
+            required: '1'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: a62655d3-55c8-49b7-aa66-c2e40ad88978
+            instructions: 'Visão da empresa'
+            label: ''
+            required: '1'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: e38c057a-90da-446d-a6cf-609c3b78bf70
+            instructions: 'Valores da empresa'
+            label: ''
+            required: '1'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 850832fa-b567-4c8b-a50a-0a2111763a8f
+            instructions: 'Imagem da empresa que vai aparecer abaixo do texto a empresa.'
+            label: ''
+            required: '1'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Conteúdo
+        sortOrder: 1
+handle: empresa
+hasTitleField: false
+name: Empresa
+section: 3e7af23b-1aa2-41c6-b2bb-639d5920d118
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

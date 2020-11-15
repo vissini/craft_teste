@@ -1,0 +1,67 @@
+contentColumnType: string
+fieldGroup: b11694b1-64e2-467d-9a30-3b24d1f317ef
+handle: categoriaProduto
+instructions: ''
+name: 'Categoria Produto'
+searchable: false
+settings:
+  optgroups: true
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - Aves
+        -
+          - value
+          - aves
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Suínos
+        -
+          - value
+          - suinos
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Bovinos
+        -
+          - value
+          - bovinos
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Laticínios
+        -
+          - value
+          - laticinios
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - 'Fábrica de Ração'
+        -
+          - value
+          - fabricaDeRacao
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Dropdown

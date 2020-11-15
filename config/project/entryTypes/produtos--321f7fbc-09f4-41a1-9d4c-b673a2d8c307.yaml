@@ -1,0 +1,65 @@
+fieldLayouts:
+  7536b5e7-2f7e-4aa2-bbd9-49a2df76994b:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 3558024f-40b8-4ead-b566-d5c1c20bf6e4
+            instructions: ''
+            label: ''
+            required: '1'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: ''
+            label: 'Nome do Produto'
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\EntryTitleField
+            warning: null
+            width: 100
+          -
+            fieldUid: 830fdbdb-0535-4f37-8941-9f9ed1517276
+            instructions: ''
+            label: ''
+            required: '1'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 850832fa-b567-4c8b-a50a-0a2111763a8f
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Conteúdo
+        sortOrder: 1
+handle: produtos
+hasTitleField: true
+name: Produtos
+section: 361cd2ec-e169-4e28-8b07-9f3ea90c6ad4
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

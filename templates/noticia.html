@@ -1,0 +1,51 @@
+{% set noticias = craft.entries().section('noticias').all() %}
+<div class="noticia-section">
+    <div class="container">
+        <div class="row">
+            <!-- <div class="col-md-3 col-sm-4"> -->
+            <div class="col-md-2">
+                <h2>Notícias</h2>
+            </div>
+            <!-- <div class="col-sm-8 col-md-9"> -->
+            <div class="col-md-10">
+                <!-- <div class="main"> -->
+                <ul class="cbp_tmtimeline">
+                    {% if noticias|length > 0%}
+                        {% for noticia in noticias %}
+                            {% set descricao_resumida = "" %}
+                            {% if loop.index >= 3 %}
+                            <li style='display:none;' class='noticiaEscondida'>
+                            {% else %}
+                            <li>
+                            {% endif %}
+          
+                                <time class="cbp_tmtime" datetime="{{ noticia.postDate|date('d/m/y') }}">
+                                    <span>{{ noticia.postDate|date('d/m/y') }}</span>
+                                </time>
+                                <div class="cbp_tmicon"></div>
+                                <div class="cbp_tmlabel">
+                                    <h3>{{ noticia.title }}</h3>
+                                    {% if noticia.imagem.one|length > 0 %}
+                                        <img class='img-responsive' src='{{ noticia.imagem.one().url }}'>
+                                    {% endif %}
+                                    {% if noticia.descricao %}
+                                        {% if noticia.descricao|length > 1000 %}
+                                            {{ noticia.descricao[0:1000]|raw }}<a class='leiaMais' href='javascipt:void()'> Leia Mais</a><span class='noticiaCompleta' style='display:none;'>{{ noticia.descricao[800:noticia.descricao|length]|raw }}</span>
+                                        {% else %}
+                                            {{ noticia.descricao|raw }}
+                                        {% endif %}
+                                    {% endif %}
+                                </div>
+                            </li>
+                        {% endfor %}      
+                    {% else %}
+                        <h3>Nenhuma notícia cadastrada!</h3>
+                    {% endif %}
+                </ul>
+                {% if noticias|length >= 3%}
+                    <div id="maisNoticias">Carregar Mais Notícias</div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>

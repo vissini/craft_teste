@@ -1,0 +1,22 @@
+{% set servicos = craft.entries().section('servicos').all() %}
+<div class="servico-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2">
+                <h2>Serviços</h2>
+            </div>
+            <div class="col-md-10">
+                <ul id="cbp-ntaccordion" class="cbp-ntaccordion">
+                    {% for servico in servicos %}
+                        <li>
+                            <h3 class="cbp-nttrigger">{{ servico.title }}</h3>
+                            <div class="cbp-ntcontent">
+                                <img class="img-responsive" src="{{ servico.imagem.one().url }}" >{{ servico.descricao }}
+                            </div>
+                        </li>
+                    {% endfor %}
+                </ul>                  
+            </div>
+        </div>
+    </div>
+</div>

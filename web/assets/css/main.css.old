@@ -1,0 +1,944 @@
+@import url(http://fonts.googleapis.com/css?family=Dosis:400,200,300,500,600,700,800);
+@import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300,200,700);
+
+
+/*************************
+*******Typography******
+**************************/
+
+body {
+  font-family: 'Dosis', sans-serif;
+  font-size: 17px;
+  color: #fff;
+  background-color:#CCC;
+background-image:-moz-linear-gradient(left,#000,#444,#000, 10%, 10%);
+background-image:-webkit-linear-gradient(left,#000,#444,#000);
+background-image:-o-linear-gradient(left,#000,#444,#000);
+background-image:-ms-linear-gradient(left,#000,#444,#000);
+background-image:linear-gradient(left,#000,#444,#000);
+
+}
+
+/*section {
+  margin: auto 5%;
+  width: 90%;
+}*/
+
+
+.btn {
+  border-radius: 0;
+  font-family: 'Yanone Kaffeesatz','sans-serif';
+  font-size: 20px;
+  padding: 9px 23px;
+}
+
+a {
+  -webkit-transition: 300ms;
+  -moz-transition: 300ms;
+  -o-transition: 300ms;
+  transition: 300ms;
+}
+
+a:focus,
+a:hover {
+  text-decoration: none;
+  outline: none
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Yanone Kaffeesatz', 'sans-serif';
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 36px
+}
+
+.navbar-toggle {
+  margin-top: 12px
+}
+
+.navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+
+.navbar-toggle,
+.navbar-toggle:focus {
+  border:1px solid #fff;
+  outline: none;
+}
+
+
+/*************************
+*******Header CSS******
+**************************/
+/*#header{
+  margin: auto 5%;
+}*/
+
+.header-top {
+  display: block;
+  overflow: hidden;
+  padding: 25px;
+  color: #0194b8;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.main-nav {
+  position: absolute;
+  width: 100%;
+  z-index: 999;
+}
+
+.main-nav
+.container {
+  width: 90%
+}
+
+section
+.container {
+  width: 90%
+}
+
+#home .container{
+  width: 100%;
+}
+
+
+
+.social-icons a {
+  font-size: 18px;
+  color: #fff;
+  padding-left:20px;
+}
+
+.social-icons .fa-facebook {
+  background-color: #3B5997;
+  color:#fff;
+  padding:10px;
+}
+
+.social-icons .fa-facebook:hover {
+  padding:10px;
+  color: #3B5997;
+  background-color: #fff;
+}
+
+.social-icons .fa-twitter:hover {
+  color:#29C5F6
+}
+
+.social-icons .fa-google-plus:hover {
+  color:#D13D2F
+}
+
+.social-icons .fa-youtube:hover{
+  color: #ec5538
+}
+
+.navbar-brand {
+  /*background-color: #1B7B98;*/
+  height: 40px;
+  margin-bottom: 70px;
+  position: relative;
+  width: 297px;
+}
+
+.navbar-brand img {
+  position: absolute;
+  top: -60px;
+}
+
+.navbar-right {
+  /*background-color: #1B7B98;*/
+  padding:0 0px 0 0;
+  opacity: .9
+}
+
+.navbar-right li a {
+  padding: 20px 21px;
+  font-size: 22px;
+  color: #fff;
+  background: #000;
+  text-transform: uppercase;
+  font-family: 'Yanone Kaffeesatz', 'sans-serif';
+  font-weight: 300;
+  margin:2px;
+}
+
+.navbar-right li a:hover,
+.navbar-right li a:focus{
+  background-color:#000;
+  color: #fff;
+}
+.navbar-right .active a {
+  background-color: #0194b8;
+  color: #fff;
+}
+
+
+.fixed-menu .navbar-nav>.active>a {
+    border-radius: 0;
+    color: #fff;
+    background-color: #0194b8;
+}
+
+.fixed-menu .navbar-nav>.active>a:hover,
+.fixed-menu .navbar-nav>.active>a:focus {
+    color: #fff;
+    background-color: #0194b8;
+}
+
+.fixed-menu {
+  background-color: #404040;
+  position: fixed;
+  top: 0;
+}
+
+.fixed-menu .navbar-right {
+  padding: 0;
+}
+
+
+.fixed-menu .navbar-right li a {
+  font-size: 18px;
+  padding: 20px 25px;
+  text-shadow:inherit;
+}
+
+.fixed-menu .navbar-brand {
+  height: 60px;
+  margin-top: 0;
+  padding: 0;
+  margin-bottom: 0;
+  width: 125px;
+}
+
+.fixed-menu .navbar-brand img {
+  height:60px;
+  top: 0;
+}
+
+.fixed-menu .header-top {
+  display: none;
+}
+
+
+
+/*************************
+*******Home CSS******
+**************************/
+
+#home {
+  /*position: relative;*/
+  overflow: hidden;
+  padding-bottom: 20px;
+  padding-top: 0px;
+}
+
+#carousel1 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    width: 100%;
+}
+
+#carousel1 .nav a small {
+    display: block;
+}
+#carousel1 .nav {
+    background: #eee;
+}
+
+#carousel1 .row .col-sm-3, #carousel1 .row .col-sm-9, #carousel1 .row .col-md-3, #carousel1 .row .col-md-9{
+  float:right;
+  padding: 0px;
+}
+
+
+
+#slider-legend{
+  background-color: #0194b8;
+  color: #fff;
+  text-align: right;
+}
+
+#carousel1 .item  .carousel-caption a{
+  color:#fff;
+}
+
+.carousel-legend{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -ms-transform:  translateY(-50%);
+  -moz-transform:  translateY(-50%);
+}
+
+.nav-justified > li > a {
+    border-radius: 0px;
+    background: #0194b8;
+    padding: 0px;
+    margin: 0px;
+}
+
+#carousel1 .nav li a{
+        padding:0px;
+    text-align:center;
+    color: #fff;
+    height:100%;
+}
+
+#carousel1 .nav li a:hover{
+        padding:0px;
+    text-align:center;
+    color: #fff;
+    height:100%;
+}
+
+.nav-pills > li{
+  float:none;
+  background: #0194b8;
+	/*border: 2px solid #88b7d5;*/
+  /*min-height: 35px;*/
+}
+
+.nav-pills > li[data-slide-to="0"] {
+    background-color: #0194B8;
+}
+.nav-pills > li[data-slide-to="1"] {
+    background-color: #0186A7;
+}
+.nav-pills > li[data-slide-to="2"] {
+    background-color: #017896;
+}
+.nav-pills > li[data-slide-to="3"] {
+    background-color: #016C87;
+}
+.nav-pills > li[data-slide-to="4"] {
+    background-color: #015C74;
+}
+
+
+.nav-pills>li+li{
+  margin: 0px;
+}
+
+.nav-pills > li a{
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+}
+
+.nav-pills > li[data-slide-to="0"].active a {
+    background-color: #0194B8;
+}
+.nav-pills > li[data-slide-to="1"].active a {
+    background-color: #0186A7;
+}
+.nav-pills > li[data-slide-to="2"].active a {
+    background-color: #017896;
+}
+.nav-pills > li[data-slide-to="3"].active a {
+    background-color: #016C87;
+}
+.nav-pills > li[data-slide-to="4"].active a {
+    background-color: #015C74;
+}
+
+.nav-pills > li .active a {
+  background: #0194b8;
+}
+
+.arrow_box {
+	position: relative;
+  z-index: 10;
+
+  -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+        box-sizing: border-box;
+}
+.arrow_box:after, .arrow_box:before {
+	left: 100%;
+	top: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.nav-pills > li[data-slide-to="0"].arrow_box:after{
+  border-left-color: #0194B8
+}
+.nav-pills > li[data-slide-to="1"].arrow_box:after {
+  border-left-color: #0186A7
+}
+.nav-pills > li[data-slide-to="2"].arrow_box:after {
+  border-left-color: #017896
+}
+.nav-pills > li[data-slide-to="3"].arrow_box:after {
+  border-left-color: #016C87
+}
+.nav-pills > li[data-slide-to="4"].arrow_box:after {
+  border-left-color: #015C74
+}
+.arrow_box:after {
+	border-color: rgba(1, 148, 184, 0);
+	/*border-left-color: #0194b8;*/
+	border-width: 30px;
+	margin-top: -30px;
+}
+.arrow_box:before {
+	/*border-color: rgba(136, 183, 213, 0);
+	border-left-color: #88b7d5;
+	border-width: 36px;
+	margin-top: -36px;*/
+}
+
+@media (max-width: 760px) {
+  .carousel-legend{
+    font-size: 12px;
+    /*color: red;*/
+  }
+  .arrow_box:after {
+  	border-color: rgba(1, 148, 184, 0);
+  	/*border-left-color: #0194b8;*/
+  	border-width: 10px;
+  	margin-top: -10px;
+  }
+  .arrow_box:after {
+  	border-color: rgba(1, 148, 184, 0);
+  	/*border-left-color: #0194b8;*/
+  	border-width: 15px;
+  	margin-top: -15px;
+  }
+
+  #home {
+    /*position: relative;*/
+    overflow: hidden;
+    padding-bottom: 20px;
+    padding-top: 70px;
+  }
+}
+/*************************
+*******Explore CSS******
+**************************/
+
+#explore {
+  background-color: #0194B8;
+  background-position: center bottom;
+  background-size: contain;
+  background-repeat:no-repeat;
+  position: relative;
+  overflow: hidden;
+  color: #FFFFFF;
+  padding: 80px 0 40px;
+  text-align: justify;
+}
+
+#explore h2 {
+  font-size: 42px;
+  text-transform: uppercase;
+  /*text-align: center;*/
+  margin: 0px;
+}
+
+#separator {
+    padding: 180px 0 140px;
+    text-align: center;
+    color: #fff;
+    background-attachment: scroll;
+    background-image: url("../images/glass-building.jpg");
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+#mission {
+  position: relative;
+  overflow: hidden;
+  color: #FFFFFF;
+  padding: 80px 0 40px;
+  background-image: url('../images/logo_marca_dagua.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#mission img{
+  display: block;
+  /*margin-left: auto;*/
+  /*margin-right: auto;*/
+}
+
+#mission h3{
+  margin-top: 10px;
+  /*font-style: italic;*/
+  color: #0194B8;
+}
+
+#mission p{
+  margin: 0px;
+}
+
+.item-center {
+  text-align: center;
+}
+
+.margin-top-row {
+  margin-top: 40px;
+}
+
+
+#servico {
+  background-color: #0194B8;
+  background-position: center bottom;
+  background-size: contain;
+  background-repeat:no-repeat;
+  position: relative;
+  overflow: hidden;
+  color: #FFFFFF;
+  padding: 80px 0 40px;
+}
+
+#servico h2 {
+  font-size: 42px;
+  text-transform: uppercase;
+  /*text-align: center;*/
+  margin: 0px;
+}
+
+
+#noticia {
+  background-color: #0194B8;
+  background-position: center bottom;
+  background-size: contain;
+  background-repeat:no-repeat;
+  position: relative;
+  overflow: hidden;
+  color: #FFFFFF;
+  padding: 80px 0 40px;
+}
+
+#noticia h2 {
+  font-size: 42px;
+  text-transform: uppercase;
+  /*text-align: center;*/
+  margin: 0px;
+}
+
+#produto {
+  position: relative;
+  overflow: hidden;
+  color: #FFFFFF;
+  padding: 80px 0 40px;
+}
+
+#produto h2 {
+  font-size: 42px;
+  text-transform: uppercase;
+  /*text-align: center;*/
+  margin: 0px;
+}
+
+
+/*************************
+*******About CSS**********
+**************************/
+
+#about {
+  background-color: #75B46E;
+  position: relative;
+  width: 100%;
+  display: flex;
+}
+
+.about-content {
+  width: 50%;
+   background-image: url("../images/about-bg.jpg");
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 70px 70px 110px;
+}
+
+
+#about h2 {
+  margin-bottom: 23px;
+}
+
+.about-content p {
+  font-size: 17px;
+  font-family: 'Dosis',sans-serif;
+}
+
+#about .btn-primary {
+  background-color: #137c61;
+  color: #fff;
+  text-transform: capitalize;
+  border: none;
+  margin-top: 28px;
+}
+
+#about .btn-primary:hover {
+  background-color: #126d55
+}
+
+
+
+/*************************
+******Twitter CSS****
+**************************/
+
+#twitter {
+  background-color: #ecedef;
+  background-image: url("../images/twitter-bg.jpg");
+  background-position: center bottom;
+  background-size: cover;
+  background-repeat:no-repeat;
+  position: relative;
+  padding: 95px 0 90px;
+  overflow: hidden;
+}
+
+.twit {
+  position: absolute;
+  left: 0;
+  top:-42%;
+}
+
+#twitter-feed .item {
+  text-align: center;
+}
+
+#twitter-feed .item img {
+  display: inline-block;
+  width: 78px;
+  height: 78px;
+  border-radius: 50%;
+  background-color: #c5c8ce;
+  padding: 5px;
+  margin-bottom: 30px;
+}
+
+#twitter-feed .item a,
+#twitter-feed .item p {
+  font-size: 24px;
+  font-weight: 300;
+  font-family: 'Yanone Kaffeesatz','sans-serif';
+}
+
+#twitter-feed .item p {
+  color: #3D3D3D;
+}
+
+#twitter-feed .item a {
+  color:#00c3ff;
+}
+
+.twitter-control-left,
+.twitter-control-right {
+  position: absolute;
+  color: #00c3ff;
+  top: 59%;
+  font-size: 24px
+}
+
+.twitter-control-left {
+  left: 0;
+}
+
+.twitter-control-right {
+  right:0;
+}
+
+
+
+/*************************
+******Sponsor CSS****
+**************************/
+
+#sponsor {
+  background-color: #1881a2;
+  background-image: url("../images/sponsor-bg.jpg");
+  background-position:50% 0;
+  background-size: cover;
+  background-repeat:no-repeat;
+  position: relative;
+}
+
+.light {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+#sponsor .col-sm-10 {
+  z-index: 10;
+}
+
+#sponsor h2 {
+  margin-top: 90px;
+  margin-bottom: 40px;
+}
+
+#sponsor .item ul {
+  font-size: 0;
+  padding: 0;
+}
+
+
+#sponsor .item ul li {
+  display: inline-block;
+  list-style: none;
+  width: 33.33%;
+  margin-bottom: 75px;
+}
+
+#sponsor .item ul li:last-child {
+  margin-right: 0
+}
+
+.sponsor-control-left,
+.sponsor-control-right {
+  color: #FFFFFF;
+  font-size: 24px;
+  position: absolute;
+  top: 20%;
+}
+
+.sponsor-control-left {
+  right: 12%
+}
+
+.sponsor-control-right {
+  right: 10%
+}
+
+
+/*************************
+******Map CSS****
+**************************/
+#map {
+  position: relative;
+}
+
+#gmap {
+  height:340px;
+}
+
+#contato-endereco {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #0194B8;
+  font-size: 18px;
+  font-family: 'Dosis';
+}
+
+#contato-endereco .row .col-md-6,
+#contato-endereco .row .col-sm-6{
+  padding-left: 0px;
+  padding-right: 0px;
+
+}
+
+#contato-endereco p {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  color: #0194B8;
+}
+
+#contato-endereco h3 {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  color: #0194B8;
+}
+
+#contato-endereco img{
+  display: inline-block;
+  height: 18px;
+  vertical-align: inherit;
+  /*margin-left: auto;*/
+  /*margin-right: auto;*/
+  /*padding-bottom: 5px;*/
+}
+
+@media(max-width:767px) {
+    #contato-endereco .row .col-md-6,
+    #contato-endereco .row .col-sm-6{
+      text-align: center !important;
+    }
+}
+
+
+
+/*************************
+******Contact CSS****
+**************************/
+#contact{
+   padding: 80px 0 40px; 
+}
+
+.contact-section {
+  position: relative;
+}
+
+#contact .container {
+  /*padding-top:47px;*/
+}
+
+.contact-report .alert-danger,
+.contact-report .alert-success{
+    -webkit-box-sizing: content-box;
+     -moz-box-sizing: content-box;
+          box-sizing: content-box;
+    padding: 10px;
+}
+
+#contact h2 {
+    font-size: 42px;
+  text-transform: uppercase;
+  /*text-align: center;*/
+  margin: 0px;
+  color: #fff;
+}
+
+#contact h3 {
+  text-transform:inherit;
+  color: #0194B8;
+}
+
+#contact address {
+  font-size: 18px;
+  color: #373737;
+}
+
+.contact-text {
+  margin-bottom: 35px;
+  display: block;
+}
+
+
+#contact-section .form-control {
+  box-shadow:none;
+  outline: 0 none;
+  border-radius: 0;
+  color: #797979;
+  font-size: 17px;
+}
+
+#contact-section .form-control:focus {
+  border-color: #0194B8;
+}
+
+#contact-section input {
+  height: 44px;
+}
+
+#contact-section textarea {
+  height: 90px;
+  resize:none;
+}
+
+#contact-section .btn-primary {
+  background-color: #0194B8;
+  color: #FFF;
+  border: none;
+  font-size: 24px;
+  padding: 6px 42px;
+  margin-bottom: 10px;
+  margin-top: 10px
+}
+
+#contact-section .btn-primary:hover {
+  background-color: #212020;
+  color: #fff
+}
+
+
+/*************************
+******Footer CSS****
+**************************/
+
+#footer {
+  background-color: #212121;
+  background-image: url("../images/footer-bg.jpg");
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #FFFFFF;
+  font-size: 20px;
+  padding: 35px 0;
+}
+
+#footer a {
+  color:#f7ab24
+}
+
+#footer a:hover {
+  color:#1B7B98
+}
+
+
+/*Produto*/
+.cbp-ntcontent .portfolio-item {
+    right: 0;
+    /*margin: 0 0 15px;*/
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.cbp-ntcontent .portfolio-item .portfolio-legend{
+   padding: 10px;
+    background: #0194b8;
+    -webkit-box-sizing: content-box;
+     -moz-box-sizing: content-box;
+          box-sizing: content-box;
+          margin-bottom: 30px;
+          color: #fff;
+          text-align: center;
+}
+
+.cbp-ntcontent .portfolio-item .portfolio-img{
+   width:98%;
+    background: #fff;
+    -webkit-box-sizing: content-box;
+     -moz-box-sizing: content-box;
+          box-sizing: content-box;
+          margin-bottom: 30px;
+          color: #fff;
+    vertical-align: middle;
+    text-align: center;
+    margin: auto;
+    height: 250px;
+    padding: 1%;
+}
+
+.cbp-ntcontent .portfolio-item img{
+  max-height: 250px;
+  max-width: 100% !important;
+  display: block;
+  vertical-align: middle;
+  text-align: center;
+  margin: auto;
+  bottom:-110px;
+  float: none !important;
+  padding: 0px !important;
+   position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -ms-transform:  translateY(-50%);
+    -moz-transform:  translateY(-50%);
+}
+
+@media(min-width:767px) {
+    .cbp-ntcontent  .portfolio-item {
+        /*margin: 0 0 30px;*/
+    }
+
+}

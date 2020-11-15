@@ -1,0 +1,32 @@
+contentColumnType: string
+fieldGroup: b11694b1-64e2-467d-9a30-3b24d1f317ef
+handle: imagem
+instructions: ''
+name: Imagem
+searchable: false
+settings:
+  allowSelfRelations: false
+  allowUploads: true
+  allowedKinds:
+    - image
+  defaultUploadLocationSource: 'volume:e4268979-f319-480f-9d3e-779b63d048c5'
+  defaultUploadLocationSubpath: empresa
+  limit: ''
+  localizeRelations: false
+  previewMode: full
+  restrictFiles: '1'
+  selectionLabel: ''
+  showSiteMenu: true
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  singleUploadLocationSource: 'volume:e4268979-f319-480f-9d3e-779b63d048c5'
+  singleUploadLocationSubpath: ''
+  source: null
+  sources: '*'
+  targetSiteId: null
+  useSingleFolder: false
+  validateRelatedElements: false
+  viewMode: large
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Assets

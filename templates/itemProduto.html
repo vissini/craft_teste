@@ -1,0 +1,22 @@
+
+{% if items|length > 0 %}
+    {% for item in items %}
+    <!--<div class="col-md-4 col-sm-6 portfolio-item">-->
+    <div class="row">
+        <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+                <img src="{{ item.imagem.one().url }}" alt="{{ item.title }}">
+                <div class="caption">
+                    <div class="row">
+                        <div class="col-xs-12 legenda">
+                            {{ item.title }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+{% else %}
+    <p>Nenhum produto cadastrado na categoria!</p>
+{% endif %}

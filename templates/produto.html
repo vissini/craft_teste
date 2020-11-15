@@ -1,0 +1,60 @@
+{% set aves           = craft.entries().section('produtos').categoriaProduto('aves').all() %}
+{% set suinos         = craft.entries().section('produtos').categoriaProduto('suinos').all() %}
+{% set bovinos        = craft.entries().section('produtos').categoriaProduto('bovinos').all() %}
+{% set laticinios     = craft.entries().section('produtos').categoriaProduto('laticinios').all() %}
+{% set fabricaDeRacao = craft.entries().section('produtos').categoriaProduto('fabricaDeRacao').all() %}
+<div class="produto-section">
+    <div class="container">
+        <div class="row">
+            <!-- <div class="col-md-3 col-sm-4"> -->
+            <div class="col-md-2">
+                <h2>Produtos</h2>
+            </div>
+            <!-- <div class="col-sm-8 col-md-9"> -->
+            <div class="col-md-10">
+                <ul id="cbp-ntaccordion1" class="cbp-ntaccordion">
+                    <li>
+                        <h3 class="cbp-nttrigger">
+                            Aves
+                        </h3>
+                        <div class="cbp-ntcontent">
+                            {% include 'itemProduto.html' with {'items': aves} %}
+                        </div>
+                    </li>
+                    <li>
+                        <h3 class="cbp-nttrigger">
+                            Suínos
+                        </h3>
+                        <div class="cbp-ntcontent">
+                            {% include 'itemProduto.html' with {'items': suinos} %}
+                        </div>
+                    </li>
+                    <li>
+                        <h3 class="cbp-nttrigger">
+                            Bovinos
+                        </h3>
+                        <div class="cbp-ntcontent">
+                            {% include 'itemProduto.html' with {'items': bovinos} %}
+                        </div>
+                    </li>
+                    <li>
+                        <h3 class="cbp-nttrigger">
+                            Laticínios
+                        </h3>
+                        <div class="cbp-ntcontent">
+                            {% include 'itemProduto.html' with {'items': laticinios} %}
+                        </div>
+                    </li>
+                    <li>
+                        <h3 class="cbp-nttrigger">
+                            Fábrica de ração
+                        </h3>
+                        <div class="cbp-ntcontent">
+                            {% include 'itemProduto.html' with {'items': fabricaDeRacao} %}
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

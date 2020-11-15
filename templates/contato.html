@@ -1,0 +1,45 @@
+<div class="contact-section">
+    <div class="container">
+    <div class="row">
+      <div class="col-md-5 contact-col">
+        <h2>Contato</h2>
+        <div id="contact-section">
+      
+          <form id="main-contact-form" class="contact-form" name="contact-form" method="post" action="sendemail.php">
+            <div class="form-group">
+                <input type="text" id="nome" name="nome" class="form-control" required="required" placeholder="Nome">
+            </div>
+            <div class="form-group">
+                <input type="email" id="email" name="email" class="form-control" required="required" placeholder="E-mail">
+            </div>
+            <div class="form-group">
+                <input type="telefone" id="telefone" name="telefone" class="form-control" required="required" placeholder="Telefone">
+            </div>
+            <div class="form-group">
+                <textarea name="mensagem" id="mensagem" required="required" class="form-control" rows="4" placeholder="Mensagem"></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary pull-right" id="sendEmail">Enviar</button>
+            </div>
+          </form>
+        </div>
+        <div class="clearfix"></div>
+        <div class="contact-report"></div>
+      </div>
+      <div class="col-md-7">
+        <h2>Localização</h2>
+        <div id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.470642580016!2d-51.699603884694326!3d-23.515569084705657!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ecc065ba7fbc0b%3A0x566c0c6a59c96274!2sMontalmaq!5e0!3m2!1spt-BR!2sbr!4v1605362229905!5m2!1spt-BR!2sbr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+      </div>
+      <div id="contato-endereco"  class="col-md-12">
+          <p>Rua Francisco Neiro, 109 - Pq Industrial I CEP 86975-000 - Mandaguari - PR - Brasil</p>
+          <p>(44) 3233-1563&nbsp;&nbsp;<img src="{{ siteUrl }}assets/images/icons/telefone.png"/></p>
+          <p>(44) 99880-7624&nbsp;&nbsp;<img src="{{ siteUrl }}assets/images/icons/whatsapp2.png"/></p>
+        </div>
+    </div>
+    <div class="row">
+       
+    </div>
+  </div>
+</div>
