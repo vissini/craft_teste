@@ -1,0 +1,17 @@
+dateModified: 1605446252
+email:
+  fromEmail: admin@montalmaq.ind.br
+  fromName: Montalmaq
+  transportType: craft\mail\transportadapters\Sendmail
+system:
+  edition: solo
+  live: true
+  name: Montalmaq
+  schemaVersion: 3.5.13
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true
