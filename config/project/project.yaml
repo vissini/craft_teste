@@ -1,12 +1,17 @@
-dateModified: 1605446252
+dateModified: 1605357088
 email:
   fromEmail: admin@montalmaq.ind.br
-  fromName: Montalmaq
+  fromName: montalmaq
   transportType: craft\mail\transportadapters\Sendmail
+plugins:
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
 system:
   edition: solo
   live: true
-  name: Montalmaq
+  name: montalmaq
   schemaVersion: 3.5.13
   timeZone: America/Los_Angeles
 users:

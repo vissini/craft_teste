@@ -2,7 +2,7 @@ baseUrl: $PRIMARY_SITE_URL
 handle: default
 hasUrls: true
 language: pt
-name: Montalmaq
+name: montalmaq
 primary: true
-siteGroup: dd7dd7dc-16b2-406c-a360-cafbc8725911
+siteGroup: 288b7ade-1751-4735-96f6-f5ec3e9ef01f
 sortOrder: 1
