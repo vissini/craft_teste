@@ -4,10 +4,6 @@ email:
   fromName: montalmaq
   transportType: craft\mail\transportadapters\Sendmail
 plugins:
-  redactor:
-    edition: standard
-    enabled: true
-    schemaVersion: 2.3.0
 system:
   edition: solo
   live: true
